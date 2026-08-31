@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jacquarda+Bastarda+9&display=swap');
+
+
+@theme {
+    --font-inter: "Inter", sans-serif;
+    --font-bastarda: "Jacquard Bastarda 9", serif;
+}
+
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+@keyframes marquee{
+    from{
+        transform: translateX(0%);
+    }
+
+    to{
+        transform: translateX(-50%);
+    }
+}
+
+.animate-marquee{
+    animation: marquee 20s linear infinite;
+}
