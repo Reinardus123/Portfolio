@@ -1,6 +1,6 @@
 
 
-
+import Profile from "../assets/Image/profile.png";
 function HeroSection(){
 
     return (
@@ -64,7 +64,11 @@ function HeroSection(){
                             </div>
 
                             <div className="relative h-[320px] w-[260px] overflow-hidden rounded-[2rem] border boder-purple-500/30 bg-[#101010] sm:h-[400px] sm:w-[320px] ">
-
+                                <img 
+                                src={Profile}
+                                alt="Reinardus Revelino" 
+                                className="h-full w-full object-cover"
+                                />
                             </div>
                         </div>
 

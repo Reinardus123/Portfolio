@@ -4,6 +4,7 @@ import { LocationEdit } from "lucide-react";
 import { Workflow } from "lucide-react";
 import { useState, useEffect } from "react";
 import { useRef } from "react";
+import Profile from "../assets/Image/profile.png";
 function AboutMe(){
     
     const [isVisible, setIsVisible] = useState(false);
@@ -49,11 +50,12 @@ function AboutMe(){
 
                 <div className="w-full md:w-2/5">
 
-                    <div className="mx-auto aspect-square w-full max-w-sm overflow-hidden rounded-2xl border border-white/10 bg-[#151515]">
+                    <div className="mx-auto aspect-square h-[320px] w-[260px] max-w-sm overflow-hidden rounded-2xl border border-white/10 bg-[#151515]">
 
-                        <img 
-                            src="" 
-                            alt="" 
+                       <img 
+                            src={Profile}
+                            alt="Reinardus Revelino" 
+                            className="h-full w-full object-cover"
                         />
 
                     </div>
