@@ -5,20 +5,15 @@ import AllPage from "./AllPage";
 
 function App(){
 
-    const [loading, setLoading] = useState(true);
+   
 
     return(
-       <>
-        {loading && (
-            <LoadingScreen onFinish={() => setLoading(false)}/>
-        )}
-
-        {!loading &&(
+       
+       
             <>
                 <AllPage/>
             </>
-        )}
-       </>
+       
     )
 }
 

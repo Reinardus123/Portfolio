@@ -39,9 +39,9 @@ function ExperienceCard({date, company, logo, position, location, description, t
             </div>
 
             <ul className="mt-6 space-y-3">
-                {description.map((item) => (
+                {description.map((item, index) => (
                     <li
-                        key={item}
+                         key={`${company}-description-${index}`}
                         className="flex gap-3 text-sm leading-6 text-gray-400"
                     >
                         <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-gray-500"/>

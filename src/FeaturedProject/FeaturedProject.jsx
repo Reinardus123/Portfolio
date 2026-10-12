@@ -19,7 +19,7 @@ function FeaturedProject(){
                 }
             },
             {
-                threshold: 0.6, 
+                threshold: 0.1, 
             }
         );
 
@@ -37,7 +37,7 @@ function FeaturedProject(){
 
             <section
                 id="projects"
-                className= {`mx-auto w-full max-w-6xl px-6 py-24 sm:px-8 lg:px-12 transition-all duration-500 ease-out ${isVisible ? "translate-y-0 opacity-100" : "translate-y-12 opacity-0"}`}
+                className= {`mx-auto w-full max-w-6xl px-6 py-24 sm:px-8 lg:px-12 transition-all duration-500 ease-out ${isVisible ? "translate-y-0 opacity-100" : "translate-y-8 opacity-0"}`}
                 ref={aboutRef}
 
             >

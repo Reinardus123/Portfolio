@@ -1,6 +1,6 @@
 import { Dice1 } from "lucide-react";
 
-function CertificationCard({number, title}){
+function CertificationCard({number, title, image}){
 
     return (
 
@@ -11,8 +11,8 @@ function CertificationCard({number, title}){
         <div className="relative aspect-video overflow-hidden">
 
                 <img 
-                    src="" 
-                    alt=""
+                    src={image} 
+                    alt={title}
                     className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" 
                 />
         </div>
