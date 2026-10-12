@@ -1,9 +1,9 @@
 import shoply from "./assets/Image/shoply.png"
-import CB from "./assets/Image/CeritaBakmi.png";
+import CB from "./assets/Image/ceritaBakmi.png";
 import UVDetec from "./assets/Image/UVDetection.png";
 import GlobalSaver from "./assets/Image/globalSaver.png";
 import Paper from "./assets/Image/Paper.png";
-import jetflix from "./assets/Image/jetflix.png";
+import jetflix from "./assets/Image/Jetflix.png";
 
 const projects = [
     {
